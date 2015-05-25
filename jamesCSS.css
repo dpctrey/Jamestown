@@ -1,11 +1,14 @@
+body {
+	background-image: url("http://tdwhs.nwasco.k12.or.us/staff/rose-wellar/ibodyworks/pink-background-clouds.jpg");
+	height: 1300px;
+}
+
 /* This is the container CSS */
 #container {
-    background-image: url("http://3.bp.blogspot.com/-V-jUlWRzPwE/UqLNjlppZtI/AAAAAAAAAJ0/Gr9FjfaxoDQ/s1600/cerah+pink+walpaper+red+with+blue+white+garis+merah9.jpg");
+
     margin-left: auto;
     margin-right: auto;
     height: 1500px;
-	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* This is the main pages' CSS */
@@ -18,8 +21,8 @@
     margin-left: 1%;
     margin-right: 1%;
     display: inline-block;
-	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 0px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.3);
 	text-align:center;
 }
 
@@ -28,10 +31,10 @@
     margin-left: 1%;
     margin-right: 1%;
     width: 98%;
-    height: 22%;
+
     display: inline-block;
-	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 0px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.3);
 	text-align:center;
 }
 
@@ -40,10 +43,10 @@
     margin-left: 1%;
     margin-right: 1%;
     width: 98%;
-    height: 22%;
+
     display: inline-block;
-	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 0px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.3);
 	text-align:center;
 }
 
@@ -52,21 +55,26 @@
     margin-left: 1%;
     margin-right: 1%;
     width: 98%;
-    height: 20%;
+
     display: inline-block;
-	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 0px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.3);
 	text-align:center;
 }
 
 /* This is the background's CSS */
+
 #bg_two {
     background-color: #FF3333;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: inline-block;
-    height:2%;
-    width: 98%;
+    height:1%;
+    width: 80%;
+	-webkit-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+	opacity: .95;
+	font-size: 50%;
 }
 
 #bg_three {
@@ -74,8 +82,10 @@
     margin-left: 1%;
     margin-right: 1%;
     display: inline-block;
-    height: 2%;
+    height: 4%;
     width: 98%;
+	-webkit-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 #bg_four {
@@ -85,6 +95,8 @@
     display: inline-block;
     height: 2%;
     width: 98%;
+	-webkit-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* This is the styling for the nav */
@@ -101,6 +113,8 @@
 	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
 	color: #000000;
 	text-decoration: none;
+	z-index: 11111;
+	opacity: .95;
 	}
 #nav ul li {
 	display: inline;
@@ -112,44 +126,64 @@
 /* This is the links CSS */
 a:link {
 	color: black;
+	text-decoration: none;
 }
 a:visited {
 	color:black;
+	text-decoration: none;
 }
 a:hover {
 	color: grey;
+	
 }
 a:active {
 	color: black;
+	text-decoration: none;
 }
 
 /* This is the titles CSS */
 #main_title {
 	font-size: 350%;
 	text-shadow: 2px 2px grey;
-	margin-top: 85px;
+	margin-top: 50px;
 }
 
 #main_subtitle {
-	font-size: 200%;
+	font-size: 250%;
 	text-shadow: 2px 2px grey;
 }
 
 #about_title {
+	font-size: 250%;
 	text-shadow: 2px 2px grey;
 }
 
 #pricing_title {
+	font-size: 250%;
 	text-shadow: 2px 2px grey;
 }
 
 #contact_title {
+	font-size: 250%;
 	text-shadow: 2px 2px grey;
 }
 
 #main_banner {
-	margin-top: 10%; 
+	text-align: center;
+	width: 50%;
 	font-size: 180%; 
 	background-color: grey;
-	opacity: 0.8;
-}	
+	opacity: 0.6;
+	z-index: -100000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about_par {
+	text-align: left;
+	width: 50%;
+	margin-left: 3%;
+	font-size: 150%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
