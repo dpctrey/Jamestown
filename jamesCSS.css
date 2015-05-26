@@ -145,7 +145,7 @@ a:active {
 #main_title {
 	font-size: 350%;
 	text-shadow: 2px 2px grey;
-	margin-top: 50px;
+	margin-top: -50px;
 }
 
 #main_subtitle {
